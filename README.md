@@ -26,12 +26,12 @@ pod "JGOCTimer"
 ```
 
 ## Methods
-** (NSString *)executeTask:(void (^)(void))task start:(NSTimeInterval)start interval:(NSTimeInterval)interval repeats:(BOOL)repeats async:(BOOL)async **
+**executeTask: start: interval: repeats: async:(BOOL)async**
 ```OC
 [JGTimer execTask:self selector:@selector(doTask) start:2.0 interval:1.0 repeats:YES async:NO];
 ```
 
-** (NSString *)executeTask:(id)target selector:(SEL)selector start:(NSTimeInterval)start interval:(NSTimeInterval)interval repeats:(BOOL)repeats async:(BOOL)async **
+**executeTask: selector: start: interval: repeats: async:**
 ```OC
 [JGTimer executeTask:^{[self doTask];} start:2.0 interval:1.0 repeats:YES async:NO];
 ```
