@@ -8,7 +8,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/JGOCTimer.svg?style=flat)](http://cocoapods.org/pods/JGOCTimer)
 [![Swift-5.0](http://img.shields.io/badge/Swift-5.0-blue.svg)]()
 
-JGOCTimer is a lightweight timer extension for OC.
+JGOCTimer is a lightweight timer extension for OC.    [Swift](https://github.com/JanyGee/JGSwiftTimer)
 
 ## Installation
 
